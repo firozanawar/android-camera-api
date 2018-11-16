@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright (C) 2018 Oleg Shnaydman
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Camera Samples</string>
+
+    <string-array
+        name="activities">
+        <item>.SurfaceActivity</item>
+        <item>.TextureActivity</item>
+        <item>.PreviewOnTextureActivity</item>
+        <item>.PreviewWithScriptActivity</item>
+        <item>.PreviewWithScriptGroupActivity</item>
+        <item>.PreviewWithThreeScriptGroupActivity</item>
+    </string-array>
+
+    <string-array
+        name="activities_title">
+        <item>Display SurfaceView</item>
+        <item>Display TextureView</item>
+        <item>Preview on Texture - YuvImage</item>
+        <item>Preview on Texture - RenderScript</item>
+        <item>Preview on Texture - RenderScript - 2 Scripts Group</item>
+        <item>Preview on Texture - RenderScript - 3 Scripts Group</item>
+    </string-array>
+
+    <string-array
+        name="activities_description">
+        <item>Camera preview displayed on a SurfaceView.</item>
+        <item>Camera preview displayed on a TextureView.</item>
+        <item>Camera display on SurfaceView with a TextureView preview window. YUV to RGB with YuvImage (slow).</item>
+        <item>Camera display on SurfaceView with a TextureView preview window. YUV to RGB with RenderScript (fast).</item>
+        <item>Camera display on SurfaceView with a TextureView preview window. Chain with 2 RenderScripts group and 1 connection.</item>
+        <item>Camera display on SurfaceView with a TextureView preview window. Chain with 3 RenderScripts group and 2 connections.</item>
+    </string-array>
+</resources>
