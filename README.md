@@ -16,9 +16,6 @@ Right now all examples are for old Camera and not Camera2.
 * **Preview on Texture (3 RenderScript group)** - more complicated example with a group of 3 RenderScripts. In this case, there are 2 script connections. This example converts YUV to RGB, applies blur effect and a color matrix with color inversion.
 
 ![https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_display.png](https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_display.png "Screenshot - Simple Camera Stream")
-
 ![https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_preview.png](https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_preview.png "Screenshot - Preview Window")
-
 ![https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_script.png](https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_script.png "Screenshot - RenderScript")
-
 ![https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_script2.png](https://github.com/mega-arbuz/android-camera-api/blob/master/media/screenshot_script2.png "Screenshot - RenderScript Group")
